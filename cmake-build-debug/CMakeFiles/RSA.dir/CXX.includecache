@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ernestsagibalov/CLionProject/RSA/main.cpp
+iostream
+-
+cmath
+-
+cstring
+-
+string
+-
+cstdio
+-
+ctime
+-
+omp.h
+-
+
+/opt/homebrew/include/omp.h
+stdlib.h
+-
+stdint.h
+-
+
